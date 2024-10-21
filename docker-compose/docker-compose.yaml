@@ -9,3 +9,5 @@ services:
     environment:
       POSTGRES_USER: example
       POSTGRES_PASSWORD: example
+  another: 
+    image: nginx:latest
